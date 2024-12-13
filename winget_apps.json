@@ -13,9 +13,6 @@
 					"PackageIdentifier" : "Chocolatey.Chocolatey"
 				},
 				{
-					"PackageIdentifier" : "Git.Git"
-				},
-				{
 					"PackageIdentifier" : "vim.vim"
 				},
 				{

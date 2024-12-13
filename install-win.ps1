@@ -12,11 +12,12 @@ if (Test-Path -Path "$HOME\.dotfiles-windows") {
 	Remove-Item -Path "$HOME\.dotfiles-windows" -Recurse -Force
 }
 
+Set-Alias -name git -value "C:\Program Files\Git\cmd\git.exe"
 git clone https://github.com/kwon37xi/dotfiles-windows.git $HOME\.dotfiles-windows
 
 
 # 기본 애플리케이션의 설치
-winget -i $HOME\.dotfiles-windows\winget_apps.json --silent --accept-package-agreements --accept-source-agreements
+winget import -i $HOME\.dotfiles-windows\winget_apps.json --silent --accept-package-agreements --accept-source-agreements
 
 
 # 각종 기본 설정파일들 설정

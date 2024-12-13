@@ -17,7 +17,7 @@ git clone https://github.com/kwon37xi/dotfiles-windows.git $HOME\.dotfiles-windo
 
 
 # 기본 애플리케이션의 설치
-winget import -i $HOME\.dotfiles-windows\winget_apps.json --silent --accept-package-agreements --accept-source-agreements
+winget import -i $HOME\.dotfiles-windows\winget_apps.json --disable-interactivity --accept-package-agreements --accept-source-agreements
 
 
 # 각종 기본 설정파일들 설정

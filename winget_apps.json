@@ -34,6 +34,9 @@
 					"PackageIdentifier" : "Google.Chrome.EXE"
 				},
 				{
+					"PackageIdentifier" : "Mozilla.Firefox"
+				},
+				{
 					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Ultimate"
 				},
 				{
@@ -46,7 +49,7 @@
 					"PackageIdentifier" : "Obsidian.Obsidian"
 				},
 				{
-					"PackageIdentifier" : "Eugeny.Tabby"
+					"PackageIdentifier" : "twpayne.chezmoi"
 				},
 				{
 					"PackageIdentifier" : "Zoom.Zoom.EXE"
@@ -89,6 +92,9 @@
 				},
 				{
 					"PackageIdentifier" : "GNU.Wget2"
+				},
+				{
+					"PackageIdentifier" : "lsd-rs.lsd"
 				}
 			],
 			"SourceDetails" : 

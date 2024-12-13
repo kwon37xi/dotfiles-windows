@@ -33,7 +33,7 @@ $chocopackages = @(
     "font-awesome-font"
 )
 foreach ($package in $chocopackages) {
-     C:\ProgramData\chocolatey\bin\choco.exe install $package -y
+     C:\ProgramData\chocolatey\bin\choco.exe install $package -y --allow-empty-checksums
 }
 
 # 각종 기본 설정파일들 설정

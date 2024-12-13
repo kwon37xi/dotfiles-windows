@@ -1,0 +1,122 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-12-13T09:39:17.072-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier" : "Chocolatey.Chocolatey"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "vim.vim"
+				},
+				{
+					"PackageIdentifier" : "GNU.nano"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.21.JDK"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.11.JDK"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.8.JDK"
+				},
+				{
+					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome.EXE"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Ultimate"
+				},
+				{
+					"PackageIdentifier" : "Kakao.KakaoTalk"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "Eugeny.Tabby"
+				},
+				{
+					"PackageIdentifier" : "Zoom.Zoom.EXE"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DevHome"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "NAVER.MYBOX"
+				},
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Zip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.UnZip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Gzip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Tar"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Grep"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Which"
+				},
+				{
+					"PackageIdentifier" : "GNU.Wget2"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		},
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "9NT1R1C2HH7J"
+				}
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://storeedgefd.dsx.mp.microsoft.com/v9.0",
+				"Identifier" : "StoreEdgeFD",
+				"Name" : "msstore",
+				"Type" : "Microsoft.Rest"
+			}
+		}
+	],
+	"WinGetVersion" : "1.9.25200"
+}

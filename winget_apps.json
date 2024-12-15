@@ -95,6 +95,18 @@
 				},
 				{
 					"PackageIdentifier" : "lsd-rs.lsd"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "PuTTY.PuTTY"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier" : ""
 				}
 			],
 			"SourceDetails" : 

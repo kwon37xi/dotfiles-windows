@@ -5,14 +5,21 @@
 Write-Output "Windows 초기 애플리케이션 설치 자동화를 시작합니다."
 Pause
 
-# dotfiles-windows clone
-winget install Git.Git --silent --accept-package-agreements --accept-source-agreements
+# sudo 를 위해 먼저 gsudo 설치
+winget install gerardog.gsudo
 
+
+Set-Alias -name gsudo -value "C:\Program Files\gsudo\Current\gsudo.exe"
+Set-Alias -name git -value "C:\Program Files\Git\cmd\git.exe"
+
+# dotfiles-windows clone
+
+gsudo --keepWindow winget install Git.Git --silent --accept-package-agreements --accept-source-agreements
+
+# clone .dotfiles-windows
 if (Test-Path -Path "$HOME\.dotfiles-windows") {
 	Remove-Item -Path "$HOME\.dotfiles-windows" -Recurse -Force
 }
-
-Set-Alias -name git -value "C:\Program Files\Git\cmd\git.exe"
 git clone https://github.com/kwon37xi/dotfiles-windows.git $HOME\.dotfiles-windows
 
 
@@ -33,9 +40,14 @@ $chocopackages = @(
     "font-awesome-font"
 )
 foreach ($package in $chocopackages) {
-     C:\ProgramData\chocolatey\bin\choco.exe install $package -y --allow-empty-checksums
+    gsudo --keepWindow C:\ProgramData\chocolatey\bin\choco.exe install $package -y --allow-empty-checksums
 }
 
-# WSL Install
+# Windows 설정들
+& $HOME\.dotfiles-windows\windows-configurations.ps1
+& $HOME\.dotfiles-windows\hangul-sebul390.ps1
+& $HOME\.dotfiles-windows\jwshiftspacekey.ps1
 
-sudo wsl --install -d Ubuntu
+# WSL Install
+gsudo --keepWindow wsl --install -d Ubuntu
+# Reboot 필요

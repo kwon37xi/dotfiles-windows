@@ -97,6 +97,12 @@
 					"PackageIdentifier" : "GNU.Wget2"
 				},
 				{
+					"PackageIdentifier" : "GnuWin32.DiffUtils"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.FindUtils"
+				},
+				{
 					"PackageIdentifier" : "lsd-rs.lsd"
 				},
 				{

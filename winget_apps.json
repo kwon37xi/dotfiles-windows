@@ -106,6 +106,9 @@
 					"PackageIdentifier" : "dandavison.delta"
 				},
 				{
+					"PackageIdentifier" : "junegunn.fzf"
+				},
+				{
 					"PackageIdentifier" : "Meld.Meld"
 				},
 				{

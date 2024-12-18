@@ -131,7 +131,11 @@
 				},
 				{
 					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice.HelpPack"
+				},
+				{
+					"PackageIdentifier" : "Oracle.VirtualBox"
 				}
+
 			],
 			"SourceDetails" : 
 			{

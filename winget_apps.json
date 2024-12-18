@@ -7,10 +7,13 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "Bitwarden.Bitwarden"
+					"PackageIdentifier" : "Chocolatey.Chocolatey"
 				},
 				{
-					"PackageIdentifier" : "Chocolatey.Chocolatey"
+					"PackageIdentifier" : "twpayne.chezmoi"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
 				},
 				{
 					"PackageIdentifier" : "vim.vim"
@@ -46,10 +49,10 @@
 					"PackageIdentifier" : "Notion.Notion"
 				},
 				{
-					"PackageIdentifier" : "Obsidian.Obsidian"
+					"PackageIdentifier" : "Joplin.Joplin"
 				},
 				{
-					"PackageIdentifier" : "twpayne.chezmoi"
+					"PackageIdentifier" : "Obsidian.Obsidian"
 				},
 				{
 					"PackageIdentifier" : "Zoom.Zoom.EXE"
@@ -106,7 +109,10 @@
 					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : ""
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice.HelpPack"
 				}
 			],
 			"SourceDetails" : 

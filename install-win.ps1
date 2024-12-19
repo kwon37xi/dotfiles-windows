@@ -24,7 +24,7 @@ git clone https://github.com/kwon37xi/dotfiles-windows.git $HOME\.dotfiles-windo
 
 
 # winget 기본 애플리케이션의 설치
-winget import -i $HOME\.dotfiles-windows\winget_apps.json --disable-interactivity --accept-package-agreements --accept-source-agreements
+gsudo --keepWindow winget import -i $HOME\.dotfiles-windows\winget_apps.json --disable-interactivity --accept-package-agreements --accept-source-agreements
 
 # choco 기본 애플리케이션 설치
 $chocopackages = @(
@@ -47,6 +47,12 @@ foreach ($package in $chocopackages) {
 & $HOME\.dotfiles-windows\windows-configurations.ps1
 & $HOME\.dotfiles-windows\hangul-sebul390.ps1
 & $HOME\.dotfiles-windows\jwshiftspacekey.ps1
+
+# TODOs
+# dotfiles
+# windows terminal font 설정
+# PowerToys Run 등 설정
+#
 
 # WSL Install
 gsudo --keepWindow wsl --install -d Ubuntu

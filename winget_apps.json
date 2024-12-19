@@ -13,46 +13,16 @@
 					"PackageIdentifier" : "twpayne.chezmoi"
 				},
 				{
-					"PackageIdentifier" : "Bitwarden.Bitwarden"
-				},
-				{
 					"PackageIdentifier" : "vim.vim"
-				},
-				{
-					"PackageIdentifier" : "GNU.nano"
 				},
 				{
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.21.JDK"
 				},
 				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.11.JDK"
-				},
-				{
-					"PackageIdentifier" : "EclipseAdoptium.Temurin.8.JDK"
-				},
-				{
-					"PackageIdentifier" : "Google.GoogleDrive"
-				},
-				{
 					"PackageIdentifier" : "Google.Chrome.EXE"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
-				},
-				{
 					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Ultimate"
-				},
-				{
-					"PackageIdentifier" : "Kakao.KakaoTalk"
-				},
-				{
-					"PackageIdentifier" : "Notion.Notion"
-				},
-				{
-					"PackageIdentifier" : "Joplin.Joplin"
-				},
-				{
-					"PackageIdentifier" : "Obsidian.Obsidian"
 				},
 				{
 					"PackageIdentifier" : "Zoom.Zoom.EXE"
@@ -70,37 +40,7 @@
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "NAVER.MYBOX"
-				},
-				{
 					"PackageIdentifier" : "7zip.7zip"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.Zip"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.UnZip"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.Gzip"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.Tar"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.Grep"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.Which"
-				},
-				{
-					"PackageIdentifier" : "GNU.Wget2"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.DiffUtils"
-				},
-				{
-					"PackageIdentifier" : "GnuWin32.FindUtils"
 				},
 				{
 					"PackageIdentifier" : "lsd-rs.lsd"
@@ -118,22 +58,7 @@
 					"PackageIdentifier" : "Meld.Meld"
 				},
 				{
-					"PackageIdentifier" : "Notepad++.Notepad++"
-				},
-				{
 					"PackageIdentifier" : "PuTTY.PuTTY"
-				},
-				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop"
-				},
-				{
-					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
-				},
-				{
-					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice.HelpPack"
-				},
-				{
-					"PackageIdentifier" : "Oracle.VirtualBox"
 				}
 
 			],

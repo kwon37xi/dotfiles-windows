@@ -1,0 +1,96 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2024-12-13T09:39:17.072-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "Bitwarden.Bitwarden"
+				},
+				{
+					"PackageIdentifier" : "Bitwarden.CLI"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.11.JDK"
+				},
+				{
+					"PackageIdentifier" : "EclipseAdoptium.Temurin.8.JDK"
+				},
+				{
+					"PackageIdentifier" : "Google.GoogleDrive"
+				},
+				{
+					"PackageIdentifier" : "Mozilla.Firefox"
+				},
+				{
+					"PackageIdentifier" : "Kakao.KakaoTalk"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
+					"PackageIdentifier" : "Joplin.Joplin"
+				},
+				{
+					"PackageIdentifier" : "Obsidian.Obsidian"
+				},
+				{
+					"PackageIdentifier" : "NAVER.MYBOX"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Zip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.UnZip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Gzip"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Tar"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Grep"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.Which"
+				},
+				{
+					"PackageIdentifier" : "GNU.Wget2"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.DiffUtils"
+				},
+				{
+					"PackageIdentifier" : "GnuWin32.FindUtils"
+				},
+				{
+					"PackageIdentifier" : "Notepad++.Notepad++"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice"
+				},
+				{
+					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice.HelpPack"
+				},
+				{
+					"PackageIdentifier" : "Oracle.VirtualBox"
+				}
+
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.9.25200"
+}

@@ -56,4 +56,7 @@ foreach ($package in $chocopackages) {
 
 # WSL Install
 gsudo --keepWindow wsl --install -d Ubuntu
+
+# 나머지 비필수 패키지 설치
+gsudo --keepWindow winget  import -i $HOME\.dotfiles-windows\winget_optional_apps.json --disable-interactivity --accept-package-agreements --accept-source-agreements 
 # Reboot 필요

@@ -80,7 +80,11 @@
 				},
 				{
 					"PackageIdentifier" : "Oracle.VirtualBox"
+				},
+				{
+					"PackageIdentifier" : "Samsung.DEX"
 				}
+
 
 			],
 			"SourceDetails" : 

@@ -10,7 +10,7 @@ Set-ItemProperty -Path $explorerAdvancedRegPath -Name "Start_TrackDocs" -Value 0
 ## 파일 탐색기에 최근 파일 끄기
 Set-ItemProperty -Path $explorerAdvancedRegPath -Name "ShowRecent" -Value 0
 
-## 작업패시줄 점프 목록에 항목 표시 갯수 조정
+## 작업표시줄 점프 목록에 항목 표시 갯수 조정
 Set-ItemProperty -Path $explorerAdvancedRegPath -Name "JumpListItems_Maximum" -Value 10
 
 Stop-Process -Name explorer -Force

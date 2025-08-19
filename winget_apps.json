@@ -7,9 +7,6 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "Chocolatey.Chocolatey"
-				},
-				{
 					"PackageIdentifier" : "twpayne.chezmoi"
 				},
 				{

@@ -16,15 +16,6 @@
 					"PackageIdentifier" : "EclipseAdoptium.Temurin.21.JDK"
 				},
 				{
-					"PackageIdentifier" : "Google.Chrome.EXE"
-				},
-				{
-					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Ultimate"
-				},
-				{
-					"PackageIdentifier" : "Zoom.Zoom.EXE"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
@@ -75,7 +66,10 @@
 				},
 				{
 					"PackageIdentifier" : "XPFPPN5PLH3BFV"
-				}
+				},
+                {
+                    "PackageIdentifier" : "XPFPPN5PLH3BFV"
+                }
 			],
 			"SourceDetails" : 
 			{

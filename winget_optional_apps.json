@@ -22,22 +22,7 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "Mozilla.Firefox"
-				},
-				{
-					"PackageIdentifier" : "Kakao.KakaoTalk"
-				},
-				{
-					"PackageIdentifier" : "Notion.Notion"
-				},
-				{
-					"PackageIdentifier" : "Joplin.Joplin"
-				},
-				{
 					"PackageIdentifier" : "Obsidian.Obsidian"
-				},
-				{
-					"PackageIdentifier" : "NAVER.MYBOX"
 				},
 				{
 					"PackageIdentifier" : "GnuWin32.Zip"
@@ -67,9 +52,6 @@
 					"PackageIdentifier" : "GnuWin32.FindUtils"
 				},
 				{
-					"PackageIdentifier" : "Notepad++.Notepad++"
-				},
-				{
 					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
@@ -77,9 +59,6 @@
 				},
 				{
 					"PackageIdentifier" : "TheDocumentFoundation.LibreOffice.HelpPack"
-				},
-				{
-					"PackageIdentifier" : "Oracle.VirtualBox"
 				},
 				{
 					"PackageIdentifier" : "PDFArranger.PDFArranger"

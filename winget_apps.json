@@ -43,6 +43,15 @@
 					"PackageIdentifier" : "junegunn.fzf"
 				},
 				{
+					"PackageIdentifier" : "UniversalCtags.Ctags"
+				}
+				{
+					"PackageIdentifier" : "sharkdp.bat"
+				}
+				{
+					"PackageIdentifier" : "sharkdp.fd"
+				}
+				{
 					"PackageIdentifier" : "Meld.Meld"
 				},
 				{
